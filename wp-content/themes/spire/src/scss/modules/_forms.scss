@@ -1,0 +1,62 @@
+button, [type="button"] {
+	cursor: pointer;
+	font-family: $font-primary;
+
+	&:hover, &:focus {
+		box-shadow: none;
+		outline: none;
+	}
+}
+
+.button {
+
+	&:disabled {
+		cursor: not-allowed;
+		opacity: 0.5;
+	}
+
+	&:visited, &:active, &:hover, &:focus {
+		box-shadow: none;
+		outline: none;
+	}
+}
+
+form {
+
+}
+
+input {
+
+	&:hover, &:focus {
+		box-shadow: none;
+		outline: none;
+	}
+}
+
+select {
+
+	&:hover, &:focus {
+		box-shadow: none;
+		outline: none;
+	}
+}
+
+textarea {
+
+	&:hover, &:focus {
+		box-shadow: none;
+		outline: none;
+	}
+}
+
+[type="text"], [type="email"], [type="password"], [type="number"] {
+
+}
+
+[type="submit"], [type="reset"] {
+
+}
+
+[type="checkbox"], [type="radio"] {
+
+}

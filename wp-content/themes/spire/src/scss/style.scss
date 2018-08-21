@@ -1,0 +1,31 @@
+/*=====     Dependencies     =====*/
+// Bourbon Neat Grid
+@import 'neat';
+
+/*=====     Global variables, Framework, Mixins     =====*/
+// Wordpress header for style.css
+@import '_wordpress';
+
+// mixins and reusable code
+@import '_mixins';
+
+// variables and configurations
+@import '_config';
+
+// base styles
+@import '_base';
+
+// default Wordpress styles
+@import '_default';
+
+// grid framework
+@import '_grid';
+
+// typography
+@import '_typography';
+
+// modular styles
+@import '_modules';
+
+// view specific styles
+@import '_views';

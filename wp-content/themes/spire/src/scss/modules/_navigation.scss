@@ -1,0 +1,49 @@
+#primary-navigation {
+
+	[role="navigation"] {
+
+	}
+}
+
+/*Set mobile visibility*/
+#menu-toggle {
+	display: none;
+
+	+ label {
+		display: inline-block;
+
+		svg path {
+			fill: $black;
+			transition: fill $duration;
+		}
+	}
+
+	~ nav {
+		display: none;
+	}
+
+	// Show nav when toggle is checked
+	&:checked {
+
+		+ label {
+			svg path {
+				fill: $green;
+			}
+		}
+
+		~ nav {
+			display: block;
+		}
+	}
+
+	// Hide label, show nav at desktop sizes
+	@include grid-media($desktop) {
+		+ label {
+			display: none;
+		}
+
+		~ nav {
+			display: block;
+		}
+	}
+}

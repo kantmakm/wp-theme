@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	background-color: $white;
+}
+
+body {}
+
+main {
+	display: block;
+}
+
+[role="document"] {
+	@include clearfix;
+}
+
+a {
+	color: $blue;
+
+	&:visited, &:hover, &:active, &:focus {
+		box-shadow: none;
+		outline: none;
+
+	}
+}

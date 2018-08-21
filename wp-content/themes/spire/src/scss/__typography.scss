@@ -1,0 +1,38 @@
+// Typography
+// import google font files, replace as needed
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:700|Source+Sans+Pro:400,600,700');
+$font-primary: 'Source Sans Pro', sans-serif;
+$font-secondary: 'Roboto', sans-serif;
+
+body {
+	font-family: $font-primary;
+}
+
+h1, h2, h3 {
+	font-family: $font-secondary;
+}
+
+h1 {
+	font-size: 3rem;
+	line-height: 3.5rem;
+}
+
+h2 {
+	font-size: 2.125rem;
+	line-height: 2.625rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+}
+
+p {}
+
+small {}
+
+blockquote {}
+
+figure {}
+
+figcaption {}

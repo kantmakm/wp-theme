@@ -1,0 +1,32 @@
+{
+  "name": "Project-Starter",
+  "author": "Spire Digital",
+  "version": "2.0.0",
+  "description": "Front-End Project Starter",
+  "private": true,
+  "dependencies": {
+    "browser-sync": "latest",
+    "browserify": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-compass": "latest",
+    "gulp-eslint": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-watch": "latest",
+    "stringify": "latest",
+    "vinyl-buffer": "latest",
+    "vinyl-source-stream": "latest"
+  },
+  "devDependencies": {
+    "bourbon-neat": "latest",
+    "vue": "latest",
+    "vue-resource": "latest",
+    "vue-router": "latest"
+  },
+  "scripts": {
+    "gulp": "gulp build && gulp watch"
+  }
+}
